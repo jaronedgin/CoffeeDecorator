@@ -8,3 +8,7 @@ To compile and run with maven, use the command
 ```
 mvn clean compile exec:java
 ```
+
+
+https://github.com/user-attachments/assets/0727bb4d-33d5-43e1-b8d7-1f90bc3e2d38
+
