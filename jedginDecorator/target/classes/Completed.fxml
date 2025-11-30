@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="CompletedController"
+            prefHeight="720.0" prefWidth="720.0"
+            styleClass="main-bg">
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label text="Order Complete!" style="-fx-font-size: 40px; -fx-text-fill: white;"/>
+            <Label fx:id="totalLabel" style="-fx-font-size: 30px; -fx-text-fill: white;"/>
+            <TextArea fx:id="detailsArea"
+                      editable="false"
+                      wrapText="true"
+                      maxWidth="300"
+                      maxHeight="300"
+                      styleClass="final-order-text"/>
+            <Button fx:id="newOrderButton" text="New Order" styleClass="utilityButton" onAction="#newOrder"/>
+        </VBox>
+    </center>
+
+</BorderPane>

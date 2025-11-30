@@ -1,0 +1,63 @@
+.border-pane {
+    -fx-padding: 20;
+}
+
+.main-bg {
+    -fx-background-color: #00704A;
+}
+
+.ingredientButton {
+    -fx-font-size: 24px;
+    -fx-pref-width: 150px;
+    -fx-text-fill: black;
+}
+
+.ingredientButton:hover {
+    -fx-font-size: 24px;
+    -fx-pref-width: 150px;
+    -fx-text-fill: black;
+    -fx-background-color: #bdbdbd;
+}
+
+.utilityButton {
+    -fx-font-size: 24px;
+    -fx-pref-width: 150px;
+    -fx-background-color: #4CAF50;
+}
+
+.button-pressed {
+    -fx-background-color: #004d33;
+    -fx-text-fill: white;
+}
+
+#infoBox {
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-width: 2px;
+}
+
+.text-area {
+    -fx-control-inner-background: rgba(255, 255, 255, 0.80);
+    -fx-font-size: 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-min-height: 220px
+}
+
+.final-order-text {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+}
+
+.final-order-text .content {
+    -fx-background-color: transparent;
+}
+
+.final-order-text .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
